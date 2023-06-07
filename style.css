@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #6600ff;
+  text-align: center;
+}
+
+svg path {
+  fill: rgb(255, 241, 241);
+  stroke: #6600ff;
+  stroke-width: 3px;
+  transition: 0.6s ease all;
+}
+
+svg path:hover {
+  filter: drop-shadow(2px 3px 1px #000000);
+  fill: rgb(45, 45, 45);
+  animation: svgAnime 3s ease infinite both;
+  stroke: #fff;
+}
+
+@keyframes svgAnime {
+  0%,
+  100% {
+    stroke-dasharray: 30;
+    stroke-dashoffset: 50;
+  }
+  50% {
+    stroke-dasharray: 30;
+    stroke-dashoffset: 100;
+  }
+}
