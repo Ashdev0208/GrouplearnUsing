@@ -132,10 +132,10 @@ const orqaFOn = (async (arg) => {
 #til_bayroq{
     font-size: 40px !important;
 }
-.dropdown-toggle {
-    /* background-color: aqua; */
-    /* border-radius: 50% !important; */
-}
+/* .dropdown-toggle {
+    background-color: aqua;
+    border-radius: 50% !important;
+} */
 
 .ms-7 {
     margin-left: 70px;
